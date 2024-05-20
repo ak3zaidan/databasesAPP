@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>SEARCH</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <script src="searchDriver.js"></script>
+  </head>
+  <body class="contact-page">
+    <header class="header-two" id="font-change">
+        Search by Genre
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="update.html">Update</a>
+          <a href="delete.html">Delete</a>
+          <a href="add.html">Add</a>
+          <a href="list.html">All songs</a>
+        </nav>
+    </header>
+    <main>
+      <div>
+        <select id="menu">
+          <option value="Rock">Rock</option>
+          <option value="Hiphop">HipHop</option>
+          <option value="Rap">Rap</option>
+          <option value="Country">Country</option>
+        </select>
+        <button type="button" id="search">Search</button>
+      </div>      
+      <div>
+        <p id="mainTitle"></p>
+      </div>
+      <div>
+        <table id="table">           
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Artist</th>
+              <th>Genre</th>
+              <th>Released</th>
+              <th>Popularity</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      &copy; Oregon State University 2023
+    </footer>
+  </body>
+</html>
